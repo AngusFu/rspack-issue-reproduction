@@ -2,7 +2,8 @@ import React from "react";
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-
+// comment the following line would crash
+import Demo from './Demo';
 
 function App() {
 	const [count, setCount] = useState(0);
